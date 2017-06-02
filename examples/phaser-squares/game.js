@@ -17,8 +17,8 @@ function preload() {
 	game.stage.backgroundColor = '#eee';
 
 	//load assets
-	game.load.image('player', 'phaser-squares/asset/blue-square.png');
-	game.load.image('food', 'phaser-squares/asset/red-square.png');
+	game.load.image('player', 'asset/blue-square.png');
+	game.load.image('food', 'asset/red-square.png');
 }
 function create() {
 	//start arcade physics engine

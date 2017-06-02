@@ -23,11 +23,11 @@ function preload() {
 	game.stage.backgroundColor = '#eee';
 
 	//load assets
-	game.load.image('catcher', 'triangle-catcher/asset/semicircle.png');
-	game.load.image('triangle', 'triangle-catcher/asset/triangle.png');
+	game.load.image('catcher', 'asset/semicircle.png');
+	game.load.image('triangle', 'asset/triangle.png');
 
 	//load physics body polygon data from a local JSON file
-	this.game.load.physics("physics", "triangle-catcher/asset/data.json");
+	this.game.load.physics("physics", "asset/data.json");
 
 	/*
 	* alternatively, load physics body data from a URL

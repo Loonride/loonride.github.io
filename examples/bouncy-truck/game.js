@@ -21,9 +21,9 @@ function preload() {
 	game.stage.backgroundColor = '#eee';
 
 	//load assets
-	game.load.image('truck', 'bouncy-truck/asset/truck.png');
-	game.load.image('wheel', 'bouncy-truck/asset/wheel.png');
-	game.load.image('hill', 'bouncy-truck/asset/hill.png');
+	game.load.image('truck', 'asset/truck.png');
+	game.load.image('wheel', 'asset/wheel.png');
+	game.load.image('hill', 'asset/hill.png');
 
 	//load physics body polygon data from a local JSON file
 	game.load.physics("physics", "bouncy-truck/asset/physics.json");
