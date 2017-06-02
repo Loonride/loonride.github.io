@@ -26,7 +26,7 @@ function preload() {
 	game.load.image('hill', 'asset/hill.png');
 
 	//load physics body polygon data from a local JSON file
-	game.load.physics("physics", "bouncy-truck/asset/physics.json");
+	game.load.physics("physics", "asset/physics.json");
 
 }
 function create() {
